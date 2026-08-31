@@ -1,0 +1,29 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Версия bash
+        run: bash --version | head -1
+
+      - name: Проверка синтаксиса
+        run: bash -n hubguard.sh
+
+      - name: Тесты
+        run: bash tests/run-all.sh
+
+      # Тесты обязаны идти без root и без nftables — на раннере нет ни того,
+      # ни другого, и это специально: логика вынесена в чистые функции.
+      - name: shellcheck
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq shellcheck
+          shellcheck -x hubguard.sh tests/*.sh
