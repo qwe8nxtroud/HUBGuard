@@ -14,7 +14,7 @@
 50.114.4.85   # first=2026-10-05 last=2026-10-05 hits=20 ports=7 src=fr1
 64.227.99.233   # first=2026-10-05 last=2026-10-05 hits=532 ports=64 src=fr1
 85.217.140.1   # first=2026-10-05 last=2026-10-05 hits=16 ports=16 src=fr1
-85.217.140.2   # first=2026-10-05 last=2026-10-05 hits=10 ports=10 src=fr1
+85.217.140.2   # first=2026-10-05 last=2026-10-05 hits=11 ports=11 src=fr1
 85.217.140.3   # first=2026-10-05 last=2026-10-05 hits=12 ports=12 src=fr1
 85.217.140.4   # first=2026-10-05 last=2026-10-05 hits=17 ports=17 src=fr1
 85.217.140.5   # first=2026-10-05 last=2026-10-05 hits=12 ports=12 src=fr1
