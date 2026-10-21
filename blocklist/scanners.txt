@@ -2,7 +2,7 @@
 # Один IPv4 на строку. Формат: ADDR   # first=ДАТА last=ДАТА hits=N ports=M src=УЗЕЛ
 # Ведётся автоматически сборщиком на ноде-сенсоре. Правила попадания и срок жизни — в README.md.
 # Исправить ошибку: добавьте адрес/подсеть в allow.list (его сборщик уважает и убирает отсюда).
-# Обновлено: 2026-10-21 22:04 UTC · адресов: 490
+# Обновлено: 2026-10-21 22:19 UTC · адресов: 490
 1.1.1.1   # first=2026-10-06 last=2026-10-20 hits=67 ports=41 src=fr1
 1.54.223.149   # first=2026-10-09 last=2026-10-21 hits=33 ports=10 src=fr1
 2.27.71.88   # first=2026-10-08 last=2026-10-08 hits=21 ports=21 src=fr1
@@ -111,7 +111,7 @@
 82.65.166.4   # first=2026-10-18 last=2026-10-21 hits=12 ports=11 src=fr1
 82.115.210.157   # first=2026-10-13 last=2026-10-21 hits=317 ports=35 src=fr1
 85.11.167.7   # first=2026-10-05 last=2026-10-21 hits=42 ports=13 src=fr1
-85.203.42.36   # first=2026-10-13 last=2026-10-21 hits=44 ports=5 src=fr1
+85.203.42.36   # first=2026-10-13 last=2026-10-21 hits=47 ports=5 src=fr1
 85.217.140.1   # first=2026-10-05 last=2026-10-21 hits=238 ports=64 src=fr1
 85.217.140.2   # first=2026-10-05 last=2026-10-21 hits=202 ports=64 src=fr1
 85.217.140.3   # first=2026-10-05 last=2026-10-21 hits=232 ports=64 src=fr1
@@ -124,7 +124,7 @@
 85.217.140.10   # first=2026-10-05 last=2026-10-21 hits=509 ports=64 src=fr1
 85.217.140.11   # first=2026-10-05 last=2026-10-21 hits=571 ports=64 src=fr1
 85.217.140.12   # first=2026-10-05 last=2026-10-21 hits=508 ports=64 src=fr1
-85.217.140.13   # first=2026-10-05 last=2026-10-21 hits=497 ports=64 src=fr1
+85.217.140.13   # first=2026-10-05 last=2026-10-21 hits=498 ports=64 src=fr1
 85.217.140.14   # first=2026-10-20 last=2026-10-21 hits=36 ports=36 src=fr1
 85.217.140.15   # first=2026-10-05 last=2026-10-21 hits=530 ports=64 src=fr1
 85.217.140.16   # first=2026-10-05 last=2026-10-21 hits=561 ports=64 src=fr1
