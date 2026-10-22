@@ -2,7 +2,7 @@
 # Один IPv4 на строку. Формат: ADDR   # first=ДАТА last=ДАТА hits=N ports=M src=УЗЕЛ
 # Ведётся автоматически сборщиком на ноде-сенсоре. Правила попадания и срок жизни — в README.md.
 # Исправить ошибку: добавьте адрес/подсеть в allow.list (его сборщик уважает и убирает отсюда).
-# Обновлено: 2026-10-22 23:29 UTC · адресов: 510
+# Обновлено: 2026-10-22 23:44 UTC · адресов: 510
 1.1.1.1   # first=2026-10-06 last=2026-10-20 hits=67 ports=41 src=fr1
 1.54.223.149   # first=2026-10-09 last=2026-10-21 hits=33 ports=10 src=fr1
 2.27.71.88   # first=2026-10-08 last=2026-10-08 hits=21 ports=21 src=fr1
@@ -99,7 +99,7 @@
 69.24.190.41   # first=2026-10-19 last=2026-10-21 hits=12 ports=10 src=fr1
 71.6.155.70   # first=2026-10-15 last=2026-10-22 hits=10 ports=5 src=fr1
 71.18.93.239   # first=2026-10-08 last=2026-10-22 hits=1451 ports=64 src=fr1
-71.18.180.235   # first=2026-10-05 last=2026-10-22 hits=6394 ports=64 src=fr1
+71.18.180.235   # first=2026-10-05 last=2026-10-22 hits=6401 ports=64 src=fr1
 71.18.222.1   # first=2026-10-12 last=2026-10-22 hits=2446 ports=64 src=fr1
 71.18.240.1   # first=2026-10-12 last=2026-10-22 hits=1061 ports=64 src=fr1
 77.91.71.10   # first=2026-10-07 last=2026-10-22 hits=26 ports=26 src=fr1
@@ -132,10 +132,10 @@
 85.217.140.10   # first=2026-10-05 last=2026-10-22 hits=544 ports=64 src=fr1
 85.217.140.11   # first=2026-10-05 last=2026-10-22 hits=592 ports=64 src=fr1
 85.217.140.12   # first=2026-10-05 last=2026-10-22 hits=533 ports=64 src=fr1
-85.217.140.13   # first=2026-10-05 last=2026-10-22 hits=530 ports=64 src=fr1
+85.217.140.13   # first=2026-10-05 last=2026-10-22 hits=531 ports=64 src=fr1
 85.217.140.14   # first=2026-10-20 last=2026-10-22 hits=60 ports=60 src=fr1
 85.217.140.15   # first=2026-10-05 last=2026-10-22 hits=545 ports=64 src=fr1
-85.217.140.16   # first=2026-10-05 last=2026-10-22 hits=594 ports=64 src=fr1
+85.217.140.16   # first=2026-10-05 last=2026-10-22 hits=595 ports=64 src=fr1
 85.217.140.17   # first=2026-10-20 last=2026-10-22 hits=58 ports=58 src=fr1
 85.217.140.18   # first=2026-10-05 last=2026-10-22 hits=217 ports=64 src=fr1
 85.217.140.19   # first=2026-10-05 last=2026-10-22 hits=198 ports=64 src=fr1
@@ -144,7 +144,7 @@
 85.217.140.23   # first=2026-10-05 last=2026-10-22 hits=230 ports=64 src=fr1
 85.217.140.24   # first=2026-10-05 last=2026-10-22 hits=169 ports=64 src=fr1
 85.217.140.25   # first=2026-10-07 last=2026-10-22 hits=150 ports=64 src=fr1
-85.217.140.26   # first=2026-10-05 last=2026-10-22 hits=223 ports=64 src=fr1
+85.217.140.26   # first=2026-10-05 last=2026-10-22 hits=224 ports=64 src=fr1
 85.217.140.27   # first=2026-10-05 last=2026-10-22 hits=222 ports=64 src=fr1
 85.217.140.28   # first=2026-10-05 last=2026-10-22 hits=231 ports=64 src=fr1
 85.217.140.29   # first=2026-10-05 last=2026-10-22 hits=243 ports=64 src=fr1
@@ -182,7 +182,7 @@
 85.217.149.26   # first=2026-10-05 last=2026-10-22 hits=349 ports=64 src=fr1
 85.217.149.33   # first=2026-10-05 last=2026-10-22 hits=187 ports=64 src=fr1
 85.217.149.34   # first=2026-10-05 last=2026-10-22 hits=199 ports=64 src=fr1
-85.217.149.35   # first=2026-10-05 last=2026-10-22 hits=117 ports=64 src=fr1
+85.217.149.35   # first=2026-10-05 last=2026-10-22 hits=119 ports=64 src=fr1
 85.217.149.36   # first=2026-10-05 last=2026-10-22 hits=200 ports=64 src=fr1
 85.217.149.37   # first=2026-10-05 last=2026-10-22 hits=214 ports=64 src=fr1
 85.217.149.38   # first=2026-10-05 last=2026-10-22 hits=169 ports=64 src=fr1
@@ -192,7 +192,7 @@
 85.217.149.42   # first=2026-10-05 last=2026-10-22 hits=144 ports=64 src=fr1
 85.217.149.43   # first=2026-10-05 last=2026-10-22 hits=194 ports=64 src=fr1
 85.217.149.44   # first=2026-10-05 last=2026-10-22 hits=210 ports=64 src=fr1
-85.217.149.45   # first=2026-10-05 last=2026-10-22 hits=191 ports=64 src=fr1
+85.217.149.45   # first=2026-10-05 last=2026-10-22 hits=192 ports=64 src=fr1
 85.217.149.46   # first=2026-10-05 last=2026-10-22 hits=209 ports=64 src=fr1
 85.217.149.47   # first=2026-10-05 last=2026-10-22 hits=245 ports=64 src=fr1
 85.217.149.48   # first=2026-10-05 last=2026-10-22 hits=230 ports=64 src=fr1
@@ -310,7 +310,7 @@
 130.12.182.177   # first=2026-10-16 last=2026-10-16 hits=59 ports=51 src=fr1
 132.243.165.86   # first=2026-10-14 last=2026-10-16 hits=61 ports=8 src=fr1
 134.122.104.238   # first=2026-10-05 last=2026-10-05 hits=304 ports=64 src=fr1
-134.122.110.151   # first=2026-10-22 last=2026-10-22 hits=65 ports=64 src=fr1
+134.122.110.151   # first=2026-10-22 last=2026-10-22 hits=85 ports=64 src=fr1
 134.195.198.230   # first=2026-10-07 last=2026-10-21 hits=26 ports=21 src=fr1
 134.199.211.192   # first=2026-10-05 last=2026-10-05 hits=415 ports=64 src=fr1
 134.209.161.16   # first=2026-10-12 last=2026-10-12 hits=371 ports=64 src=fr1
@@ -328,7 +328,7 @@
 143.110.211.144   # first=2026-10-09 last=2026-10-14 hits=233 ports=64 src=fr1
 143.110.242.62   # first=2026-10-18 last=2026-10-18 hits=1310 ports=64 src=fr1
 143.198.38.141   # first=2026-10-08 last=2026-10-14 hits=222 ports=64 src=fr1
-143.244.191.173   # first=2026-10-22 last=2026-10-22 hits=170 ports=64 src=fr1
+143.244.191.173   # first=2026-10-22 last=2026-10-22 hits=186 ports=64 src=fr1
 146.70.111.19   # first=2026-10-16 last=2026-10-21 hits=13 ports=10 src=fr1
 147.90.209.3   # first=2026-10-17 last=2026-10-19 hits=16 ports=5 src=fr1
 147.90.227.202   # first=2026-10-19 last=2026-10-21 hits=18 ports=9 src=fr1
